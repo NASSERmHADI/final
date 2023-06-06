@@ -1,0 +1,9 @@
+﻿@model Step
+
+@{
+	double result = Model.StepNumber * 0.04;
+}
+
+<h1>@result</h1>
+
+<a asp-controller="Pedometer" asp-action="Steps">Back</a>
